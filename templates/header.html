@@ -20,15 +20,19 @@
 
   <!-- Custom styles for this template -->
   <link href="{{ url_for('static', filename='css/clean-blog.min.css')}}" rel="stylesheet">
-
+  <!-- Favicon -->
+  <link rel="apple-touch-icon" sizes="180x180" href="static/img/apple-touch-icon.png">
+  <link rel="icon" type="image/png" sizes="32x32" href="static/img/favicon-32x32.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="static/img/favicon-16x16.png">
 </head>
+  <link rel="manifest" href="static/img/site.webmanifest">
 
 <body>
 
   <!-- Navigation -->
   <nav class="navbar navbar-expand-md navbar-light fixed-top" id="mainNav">
     <div class="container">
-      <a class="navbar-brand" href="{{url_for('get_all_posts')}}">Emilis Blog</a>
+      <a class="navbar-brand" href="{{url_for('get_all_posts')}}">Sonava SMP</a>
       <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
         Menu
         <i class="fas fa-bars"></i>
